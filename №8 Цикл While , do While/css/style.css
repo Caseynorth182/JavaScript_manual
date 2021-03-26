@@ -1,0 +1,8 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.div {
+    margin: 15px;
+    font-family: monospace;
+}
