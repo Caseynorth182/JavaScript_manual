@@ -1,0 +1,52 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div {
+    margin: 15px;
+    font-family: monospace;
+}
+
+.block {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+.two {
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+}
+
+.four {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s;
+}
+
+hr {
+    clear: both;
+}
+
+.block-1,
+.block-2 {
+    width: 250px;
+    height: 250px;
+    border: 3px solid red;
+    margin: 10px;
+}
+
+.out-3 {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -10,6 +10,7 @@ xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
         //responseText - ответ c СЕРВЕРА в виде строки
         myFunc(this.responseText)
+        console.log(123132);
     }
 }
 
