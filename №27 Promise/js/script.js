@@ -42,3 +42,21 @@ Promise.all([a, b]).then(value => {
     console.log(value[0]);
     console.log(value[1]);
 })
+
+
+///////////////////////////////////////////////////
+
+let a_1 = 7;
+
+
+console.log(a_1);
+
+let b_1 = new Promise(function (resolve, reject) {
+    setTimeout(() => {
+        resolve(a_1 = 99);
+    }, 2000)
+});
+
+b_1.then(successMessage => {
+    console.log(successMessage);
+})
